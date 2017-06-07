@@ -1,3 +1,8 @@
+#![feature(asm)]
+
+#[macro_use]
+extern crate lazy_static;
+
 pub extern crate atomic;
 
 #[cfg(target_arch = "arm")]
